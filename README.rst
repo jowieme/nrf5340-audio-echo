@@ -1,8 +1,3 @@
-.. zephyr:code-sample:: nrf5340_audio-echo
-   :name: NRF5340 Audio echo
-
-   Process on-board microphone and forward to headphone to add an echo effect
-
 Overview
 ********
 This sample code is a streamlined version of the larger Nordic audio 
@@ -33,15 +28,7 @@ The primary audio_i2s interactions were implemented by Packetcraft.
 
 Building and Running
 ********************
-The code can be found in :zephyr_file:`samples/boards/nordic/nrf5340_audio/echo`.
-
-To build and flash the application:
-
-.. zephyr-app-commands::
-   :zephyr-app: samples/boards/nordic/nrf5340_audio/echo
-   :board: nrf5340_audio_dk_nrf5340_cpuapp
-   :goals: build flash
-   :compact:
+Use the nrf connect extension to add existing application. And build accordingly
 
 Press `Play/Pause` button to start echoing. Press `Vol - to`` decrease volume
 and use `Vol +` to increase volume.
